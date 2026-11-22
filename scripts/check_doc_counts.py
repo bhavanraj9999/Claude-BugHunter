@@ -139,6 +139,7 @@ def main():
 
     print(f"\nGround truth: {total} skills ({hunt} hunt-*), {commands} slash commands.")
     print(f"Checked {len(CHECKS)} doc assertions + 2 structural sums: {len(errors)} error(s).")
+    print("Modified version updated...")
     return 1 if errors else 0
 
 
